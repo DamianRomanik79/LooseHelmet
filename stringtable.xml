@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="ACPL_MM">
+	<Package name="ACPL_LooseHelmet">
+		<Key ID="STR_ACPL_LooseHelmet_empty">
+			<Original></Original>
+			<English></English>
+			<Czech></Czech>
+			<French></French>
+			<German></German>
+			<Italian></Italian>
+			<Polish></Polish>
+			<Portuguese></Portuguese>
+			<Russian></Russian>
+			<Spanish></Spanish>
+			<Korean></Korean>
+			<Japanese></Japanese>
+			<Chinesesimp></Chinesesimp>
+			<Chinese></Chinese>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet">
+			<Original>ACPL LooseHelmet</Original>
+			<English>ACPL LooseHelmet</English>
+			<Polish>ACPL LooseHelmet</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Enable">
+			<Original>Enable ACPL LooseHelmet</Original>
+			<English>Enable ACPL LooseHelmets</English>
+			<Polish>Aktywuj ACPL LooseHelmet</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Enable_Desc">
+			<Original>Activate system ACPL LooseHelmet. It will enable ability to lose helmet or weapon when character was shot.</Original>
+			<English>Activate system ACPL LooseHelmet. It will enable ability to lose helmet or weapon when character was shot.</English>
+			<Polish>Aktywuj system ACPL LooseHelmet. Umożliwi to utratę hełmu bądź broni w przypadku postrzału.</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Enable_losenvgs">
+			<Original>Activate lose NVGs</Original>
+			<English>Activate lose NVGs</English>
+			<Polish>Aktywuj utratę noktowizji</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Enable_losenvgs_desc">
+			<Original>It enables possibility of losing the NVGs when character had been shot in the head.</Original>
+			<English>It enables possibility of losing the NVGs when character had been shot in the head.</English>
+			<Polish>Daje możliwość utraty noktowizji przy postrzale w głowę.</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_HelmetChance">
+			<Original>Chance of losing a helmet</Original>
+			<English>Chance of losing a helmet</English>
+			<Polish>Szansa na utracenie hełmu</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_HelmetChance_desc">
+			<Original>Chance of losing the helmet (percentage)</Original>
+			<English>Chance of losing the helmet (percentage)</English>
+			<Polish>Szansa na utratę hełmu (procentowa)</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_WeaponChance">
+			<Original>Chance of losing a weapon</Original>
+			<English>Chance of losing a weapon</English>
+			<Polish>Szansa na utracenie broni</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_WeaponChance_desc">
+			<Original>Chance of losing the weapon (percentage)</Original>
+			<English>Chance of losing the weapon (percentage)</English>
+			<Polish>Szansa na utratę broni (procentowa)</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Destroy">
+			<Original>Activate destroing items</Original>
+			<English>Activate destroing items</English>
+			<Polish>Aktywuj niszczenie przedmiotów</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Destroy_desc">
+			<Original>Enables possibility of destroying dropped item. If item has been destroyed then there will be no way to pick it up.</Original>
+			<English>Enables possibility of destroying dropped item. If item has been destroyed then there will be no way to pick it up.</English>
+			<Polish>Aktywuj szansę na zniszczenie upuszczonego przedmiotu. Jeśli przedmiot zostanie zniszczony nie będziesz wstanie go podnieść.</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_DestroyChance">
+			<Original>Chance of destroing item</Original>
+			<English>Chance of destroing item</English>
+			<Polish>Szansa na zniszczenie przedmiotu</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_DestroyChance_desc">
+			<Original>Chance of destroying the item (percentage)</Original>
+			<English>Chance of destroying the item (percentage)</English>
+			<Polish>Szansa na zniszczenie przedmiotu (procentowa)</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Weap_PickUpChance">
+			<Original>Chance for picking up a weapon</Original>
+			<English>Chance for picking up a weapon</English>
+			<Polish>Szansa na podniesienie broni</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Weap_PickUpChance_desc">
+			<Original>Chance of picking up dropped item by AI (if AI has no secondary weapon then it's always 100%)</Original>
+			<English>Chance of picking up dropped item by AI (if AI has no secondary weapon then it's always 100%)</English>
+			<Polish>Szansa na podniesienie upuszczonej broni przez SI (jeżeli SI nie ma broni zapasowej to zawsze wynosi 100%)</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Helm_PickUpChance">
+			<Original>Chance for picking up a helmet</Original>
+			<English>Chance for picking up a helmet</English>
+			<Polish>Szansa na podniesienie hełmu</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Helm_PickUpChance_desc">
+			<Original>Chance for picking up a dropped helmet by AI. (percentage)</Original>
+			<English>Chance for picking up a dropped helmet by AI. (percentage)</English>
+			<Polish>Szansa na podniesienie upuszczonego hełmu przez SI. (procentowa)</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_NVG_PickUpChance">
+			<Original>Chance for picking up a NVGs</Original>
+			<English>Chance for picking up a NVGs</English>
+			<Polish>Szansa na podniesienie noktowizji</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_NVG_PickUpChance_desc">
+			<Original>Chance for picking up a dropped NVGs by AI (if there is night then it it's always on 100%).</Original>
+			<English>Chance for picking up a dropped NVGs by AI (if there is night then it it's always on 100%).</English>
+			<Polish>Szansa na podniesienie upuszczonej noktowizji przez SI (jeżeli jest noc to zawsze wynosi 100%).</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_act_menu">
+			<Original>Fasten</Original>
+			<English>Fasten</English>
+			<Polish>Przymocuj</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_act_menu_gun">
+			<Original>Weapon</Original>
+			<English>Weapon</English>
+			<Polish>Broń</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_act_menu_gun_fasten">
+			<Original>Fasten Weapon</Original>
+			<English>Fasten Weapon</English>
+			<Polish>Zapnij broń</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_act_menu_gun_unfasten">
+			<Original>Unfasten Weapon</Original>
+			<English>Unfasten Weapon</English>
+			<Polish>Odepnij broń</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_hint_gun_has_been_fastened">
+			<Original>The weapon has been fastened</Original>
+			<English>The weapon has been fastened</English>
+			<Polish>Broń została zapięta</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_hint_gun_has_been_unfastened">
+			<Original>The weapon has been unfastened</Original>
+			<English>The weapon has been unfastened</English>
+			<Polish>Broń została odpięta</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_act_menu_helmet">
+			<Original>Helmet</Original>
+			<English>Helmet</English>
+			<Polish>Hełm</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_act_menu_helmet_fasten">
+			<Original>Fasten Helmet</Original>
+			<English>Fasten Helmet</English>
+			<Polish>Zapnij hełm</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_act_menu_helmet_unfasten">
+			<Original>Unfasten Helmet</Original>
+			<English>Unfasten Helmet</English>
+			<Polish>Odepnij hełm</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_hint_helmet_has_been_fastened">
+			<Original>The helmet has been fastened</Original>
+			<English>The helmet has been fastened</English>
+			<Polish>Hełm został zapięty</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_hint_helmet_has_been_unfastened">
+			<Original>The helmet has been unfastened</Original>
+			<English>The helmet has been unfastened</English>
+			<Polish>Hełm został odpięty</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_act_helmet_pickup">
+			<Original>Pick up helmet</Original>
+			<English>Pick up helmet</English>
+			<Polish>Podnieś hełm</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_act_nvg_pickup">
+			<Original>Pick up NVG</Original>
+			<English>Pick up NVG</English>
+			<Polish>Podnieś noktowizję</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_act_weapon_pickup">
+			<Original>Pick up Weapon</Original>
+			<English>Pick up Weapon</English>
+			<Polish>Podnieś broń</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_act_destroyed_pickup">
+			<Original>Item is destroyed</Original>
+			<English>Item is destroyed</English>
+			<Polish>Przedmiot jest zniszczony</Polish>
+		</Key>
+
+		<Key ID="STR_ACPL_LooseHelmet_Cleaning_Enabled">
+			<Original>Enable Cleaning</Original>
+			<English>Enable Cleaning</English>
+			<Polish>Aktywuj Czyszczenie</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Cleaning_Enabled_desc">
+			<Original>Enable cleaning of dropped items.</Original>
+			<English>Enable cleaning of dropped items.</English>
+			<Polish>Aktywuj czyszczenie upuszczonych przedmiotów.</Polish>
+		</Key>
+
+		<Key ID="STR_ACPL_LooseHelmet_Cleaning_Time">
+			<Original>Time to Clean</Original>
+			<English>Time to Clean</English>
+			<Polish>Czas do wyczyszczenia</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Cleaning_Time_desc">
+			<Original>How much time object must exist to be deleted.</Original>
+			<English>How much time object must exist to be deleted.</English>
+			<Polish>Jak długo obiekt musi istnieć aby zostać usunięty.</Polish>
+		</Key>
+
+		<Key ID="STR_ACPL_LooseHelmet_Faction">
+			<Original>ACPL LooseHelmet</Original>
+			<English>ACPL LooseHelmet</English>
+			<Polish>ACPL LooseHelmet</Polish>
+		</Key>
+
+		<Key ID="STR_ACPL_LooseHelmet_Module">
+			<Original>Disable Loose Helmet</Original>
+			<English>Disable Loose Helmet</English>
+			<Polish>Wyłącz Loose Helmet</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Module_desc">
+			<Original>Disable Loose Helmet system for this mission.</Original>
+			<English>Disable Loose Helmet system for this mission.</English>
+			<Polish>Wyłącz system Loose Helmet dla tej misji.</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Module_State">
+			<Original>Enable System?</Original>
+			<English>Enable System?</English>
+			<Polish>Włączyć system?</Polish>
+		</Key>
+		<Key ID="STR_ACPL_LooseHelmet_Module_State_desc">
+			<Original>Should system be enabled?</Original>
+			<English>Should system be enabled?</English>
+			<Polish>Czy system powinien być włączony?</Polish>
+		</Key>
+	</Package>
+</Project>
